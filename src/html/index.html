@@ -6,8 +6,17 @@
 <script src="app.js"></script>
 </head><body ng-controller="simpleCtrl">
 
-  <h1>{{hoge}}</h1>
+  <div class="container">
+    <section>
+      <h1>{{hoge}}</h1>
 
-  <input type="text" ng-model="hoge">
+      <input type="text" ng-model="hoge">
+
+      <pre>{{singleModel}}</pre>
+      <button type="button" class="btn btn-primary" ng-model="singleModel" btn-checkbox btn-checkbox-true="1" btn-checkbox-false="0">
+        Single Toggle
+      </button>
+    </section>
+  </div>
 
 </body></html>
