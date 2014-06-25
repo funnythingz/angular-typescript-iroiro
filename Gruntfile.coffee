@@ -43,6 +43,14 @@ module.exports = (grunt)->
           dest: 'build/js/'
         }]
 
+      angularBootstrap:
+        files: [{
+          expand: true
+          cwd: 'bower_components/angular-ui-bootstrap-bower'
+          src: ['ui-bootstrap-tpls.min.js']
+          dest: 'build/js/'
+        }]
+
     typescript:
       base:
         src: ['src/ts/**/*.ts']
