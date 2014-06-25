@@ -1,5 +1,5 @@
 {
-  "name": "angular-typescript-template",
+  "name": "angular-typescript-iroiro",
   "dependencies": {
     "angular" : "https://github.com/angular/bower-angular.git#*",
     "angular-ui-bootstrap-bower" : "https://github.com/angular-ui/bootstrap-bower.git#*"
